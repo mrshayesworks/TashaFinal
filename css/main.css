@@ -548,8 +548,9 @@ ul.nostyle i {
 }
 #work-process h3 {
   color: #fff;
-  margin-bottom: 0;
+  margin: 0 auto;
   position: center;
+  text-align: center;
 }
 #work-process .icon-circle {
   display: inline-block;
@@ -558,6 +559,7 @@ ul.nostyle i {
   line-height: 80px;
   border: 2px solid #45aed6;
   border-radius: 100px;
+  margin: 0 auto;
   position: center;
 }
 #work-process .icon-circle > span {
@@ -566,6 +568,7 @@ ul.nostyle i {
   border-color: #45aed6;
   border-radius: 50%;
   background-color: #fff;
+  margin: 0 auto;
   position: center;
   width: 24px;
   height: 24px;
@@ -587,9 +590,12 @@ ul.nostyle i {
   border: 2px solid #eeeeee;
   transition: border-color 400ms;
   -webkit-transition: border-color 400ms;
+  margin: 0 auto;
+  position: center;
 }
 #meet-team .team-member .team-img {
-  margin: -15px -15px 0 -15px;
+    margin: 0 auto;
+    position: center;
 }
 #meet-team .team-member .team-info {
   padding-bottom: 10px;
