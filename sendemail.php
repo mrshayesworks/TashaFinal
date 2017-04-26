@@ -3,9 +3,8 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$human = intval($_POST['human']);
 		$from = 'Demo Contact Form'; 
-		$to = 'craftytimeslc@gmail.com'; 
+		$to = 'mrshayesworks@gmail.com'; 
 		$subject = ' ';
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
