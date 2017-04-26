@@ -1,9 +1,9 @@
 						<?php
-	if (isset($_POST["submit"])) {
+	if (isset($_GET["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$from = 'Demo Contact Form'; 
+		$from = $_POST['Demo Contact Form']; 
 		$to = 'mrshayesworks@gmail.com'; 
 		$subject = ' ';
 		
